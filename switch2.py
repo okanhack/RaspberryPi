@@ -1,3 +1,8 @@
+#coding:utf-8
+"""
+スイッチイベントによってLEDを光らせるプログラム
+"""
+
 import RPi.GPIO as GPIO
 import time
 

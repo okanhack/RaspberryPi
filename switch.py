@@ -16,7 +16,7 @@ GPIO.setmode(GPIO.BCM)
 
 # スイッチのピンを入力ピンとして定義
 # プルダウン抵抗を有効にする
-GPIO.setup(SWITCH_PIN, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(SWITCH_PIN, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
 
 # LEDピンを出力ピンとして定義
 # 初期値はLOW
